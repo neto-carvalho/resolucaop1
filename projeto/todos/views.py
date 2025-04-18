@@ -14,3 +14,4 @@ class TodoCreateView(CreateView):
     fields = ['title','deadline']
     success_url = reverse_lazy('todo_list')
 # Create your views here.
+

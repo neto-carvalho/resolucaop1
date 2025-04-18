@@ -1,4 +1,4 @@
-from django.db import models
+from django.db import models # type: ignore
 
 class Todo(models.Model):
     title = models.CharField(max_length=100, null=False, blank=False)
